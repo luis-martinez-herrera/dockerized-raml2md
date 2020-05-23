@@ -1,0 +1,14 @@
+FROM node:13
+
+WORKDIR /docs
+
+RUN mkdir /templates
+RUN mkdir /scripts
+
+RUN npm install -g raml2html
+RUN npm install -g raml2html-full-markdown-theme
+
+COPY templates/ /templates
+COPY scripts/ /scripts
+
+CMD ["bash", "/scripts/build.sh"]
