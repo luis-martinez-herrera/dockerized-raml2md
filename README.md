@@ -15,15 +15,15 @@ docs
     └── example1.raml
     └── example2.raml
 ```
-After execution, a folder called "**build**" will be created containing the `.md` files
+After execution, a folder called "**build**" will be created containing the `.md` files.
 ```
 docs
 ├── source
 │   └── example1.raml
-    └── example2.raml
+|   └── example2.raml
 ├── build
     └── example1.md
-    └── example1.md
+    └── example2.md
 ```
 
 ### Execution
