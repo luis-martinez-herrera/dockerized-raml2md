@@ -26,6 +26,11 @@ docs
     └── example2.md
 ```
 
+### Image pull
+```
+docker pull luismh/raml2md
+```
+
 ### Execution
 
 You need a Docker volume pointing to your "**docs**" folder. The format is `[your_docs_path]:/docs`
