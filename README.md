@@ -30,7 +30,7 @@ docs
 
 You need a Docker volume pointing to your "**docs**" folder. The format is `[your_docs_path]:/docs`
 
-**Windows users:** in some cases you may get the following messages: `cannot remove 'build /'`, `no such file or directory`. This is due to a Docker problem, just run it again :)
+**_Windows users_:** in some cases you may get the following messages: `cannot remove 'build /'`, `no such file or directory`. This is due to a Docker problem, just run it again :)
 
 #### PowerShell example
 ```
@@ -41,6 +41,11 @@ docker run --rm --volume ${pwd}\docs:/docs luismh/raml2md:1.0
 ```
 
 ```
+
+## Project resources
+
+- [Docker Hub](https://hub.docker.com/r/luismh/raml2md)
+- [Github](https://github.com/luis-martinez-herrera/dockerized-raml2md)
 
 ## Acknowledgments
 
