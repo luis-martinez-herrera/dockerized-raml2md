@@ -39,7 +39,7 @@ docker run --rm --volume ${pwd}\docs:/docs luismh/raml2md:1.0
 
 #### Shell example
 ```
-
+docker run --rm --volume "$(pwd)\docs":/docs luismh/raml2md:1.0
 ```
 
 ## Project resources
