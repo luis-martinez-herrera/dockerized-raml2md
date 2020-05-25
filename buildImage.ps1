@@ -1,1 +1,1 @@
-docker build --tag luismh/raml2md:1.0 .
+docker build --tag raml2md:1.0 .

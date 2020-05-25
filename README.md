@@ -1,5 +1,5 @@
 # Dockerized Raml2md
-Generate a Markdown based documentation from the RAML specification using a Docker container
+Generate a Markdown based documentation from the RAML specification using a Docker container.
 
 ## How to use
 
@@ -30,7 +30,24 @@ docs
 
 You need a Docker volume pointing to your "**docs**" folder. The format is `[your_docs_path]:/docs`
 
+**Windows users:** in some cases you may get the following messages: `cannot remove 'build /'`, `no such file or directory`. This is due to a Docker problem, just run it again :)
+
 #### PowerShell example
 ```
-docker run --rm --volume ${pwd}\docs:/docs luismh/raml2md
+docker run --rm --volume ${pwd}\docs:/docs luismh/raml2md:1.0
 ```
+
+#### Shell example
+```
+
+```
+
+## Acknowledgments
+
+This project is based on:
+ - [raml2html-full-markdown-theme](https://github.com/Vanderhoof/raml2html-full-markdown-theme)
+ - [raml2html](https://github.com/raml2html/raml2html)
+ 
+## Licence
+
+[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
